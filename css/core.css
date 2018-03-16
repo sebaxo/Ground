@@ -711,10 +711,12 @@ input[type="cancel"] {
 	05. Masthead
    ==================================================== */
 #masthead {
-	background-image: "images/portada.jpg";
+
+
+	background-image: url("../images/portada.jpg");
 	background-size: cover;
 	background-position: top center;
-	height: 300px;
+	height: 400px;
   	width: 100%;
 	color:#fff;
 }
@@ -816,6 +818,8 @@ input[type="cancel"] {
    Page Title
 */
 #page-title {
+	position: relative;
+	top: 165px;
 	padding:32px 0;
 	padding:2rem 0;
 }
